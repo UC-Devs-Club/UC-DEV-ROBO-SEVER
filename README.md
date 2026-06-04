@@ -5,9 +5,26 @@
 
 ## Table of Content
 * Home - You're Already Here :)
-* [Initial Setup](https://github.com/RuhanShafi/HomeServer/blob/main/initsetup/README.md)
-* [Apps](https://github.com/RuhanShafi/HomeServer/blob/main/apps/README.md) - A brief rundown on all the different app and services that I run on my Home Lab
-* [Media](https://github.com/RuhanShafi/HomeServer/blob/main/media/README.md) - Deeper Dive into my Jellyfin & *arr stack setup 
+* [Initial Setup](/initsetup/README.md)
+* [Apps](/apps/README.md) - A brief rundown on all the different app and services that I run on my Home Lab
+* [Cloud](/cloud/README.md) - NextCloud, Immich, and self-hosted cloud services
+* [Home Assistant](/homeassistant/README.md) - Home Assistant
+* [Media](/media/README.md) - Deeper Dive into my Jellyfin & *arr stack setup 
 
-## Hardware Used
-TLDR: I'm a broke Uni student, this is just a laptop with an external hard drive 
+
+## Hardware
+
+Thinksystem ST550
+
+Specifications
+
+| | |
+| --- | --- |
+| CPU | 2x Intel Xeon Silver 4110 CPU @ 2.10GHz |
+| RAM | 4x16GB DDR4  |
+| Storage | 4x 2TB 7.2k 12Gbps SAS 2.5" HDD + 1x 1.8TB 10k 12Gbps SAS 2.5" HDD |
+
+### IoT Devices
+
+
+

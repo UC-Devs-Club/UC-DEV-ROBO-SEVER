@@ -1,5 +1,7 @@
 # Apps
 
+This page in the homelab repository is a way to feature all of the apps that I have running
+
 ## Table of Contents
 * [Home](https://github.com/RuhanShafi/HomeServer/blob/main/README.md)
 * [Initial Setup](https://github.com/RuhanShafi/HomeServer/blob/main/initsetup/README.md)
@@ -17,6 +19,8 @@
 
 #### Homarr
 
+
+
 ### Tools and Utilities
 
 #### File Browser
@@ -25,11 +29,17 @@
 
 #### Jellyfin
 
+#### Jellystat
+
+Jellystat is a Statistics App 
+
 #### Overseerr
 
 ### Media Management Back End
 
 #### Sonarr - Manages TV Shows & Animes
+
+Sonarr is a media organization tool for TV Shows. This allows you to scan your library to see everything you have. Manage file names, see the media quality, and even search indexers for media
 
 **Resources:** [Wiki](https://wiki.servarr.com/sonarr) | [Github](https://github.com/Sonarr/Sonarr) | [Website](https://sonarr.tv/)
 
@@ -49,6 +59,15 @@
 
 #### qBittorrent
 
+![](./images/qbittorrent.png)
+
 This is a docker deployment of the qBittorrent peer-to-peer file sharing client which in my humble option is the best torrent downloader on the market. Can be replaced with Transmitter if that's your preferred torrent software but both integrates well with various *arr applications so its a matter of preference.
 
 **Resources:** [Github](https://github.com/qbittorrent/qBittorrent) | [Website](https://www.qbittorrent.org/)
+
+### DNS and Remote Connections
+
+#### AdGuard
+
+**Resources:** [Github](https://github.com/AdguardTeam/AdGuardHome) | [Website](https://adguard.com/en/adguard-home/overview.html)
+
