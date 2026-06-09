@@ -1,0 +1,28 @@
+services:
+  # ─── AdGuard Home (DNS + Ad Blocking) ─────────────────────────
+  adguardhome:
+    image: adguard/adguardhome:latest
+    container_name: adguardhome
+    volumes:
+      - /data/configs/adguard/work:/opt/adguardhome/work
+      - /data/configs/adguard/conf:/opt/adguardhome/conf
+    ports:
+      - 53:53/tcp # DNS
+      - 53:53/udp # DNS
+      - 3000:3000 # Initial setup UI
+      - 80:80 # Admin UI (after setup)
+      - 443:443 # HTTPS
+    restart: unless-stopped
+
+  # ─── Homarr (Dashboard) ───────────────────────────────────────
+  homarr:
+    image: ghcr.io/homarr-labs/homarr:latest
+    container_name: homarr
+    environment:
+      - SECRET_ENCRYPTION_KEY = [`INSERT KEY HERE`]
+    volumes:
+      - /data/configs/homarr:/app/data/configs
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 7575:7575
+    restart: unless-stopped
