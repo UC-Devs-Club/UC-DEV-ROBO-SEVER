@@ -8,13 +8,13 @@
 * [Initial Setup](/initsetup/README.md)
 * [Apps](/apps/README.md) - A brief rundown on all the different app and services that I run on my Home Lab
 * [Cloud](/cloud/README.md) - NextCloud, Immich, and self-hosted cloud services
-* [Home Assistant](/homeassistant/README.md) - Home Assistant
+* [Home Assistant](/homeassistant/README.md) - Home Assistant Configurations
 * [Media](/media/README.md) - Deeper Dive into my Jellyfin & *arr stack setup 
 
 
 ## Hardware
 
-Thinksystem ST550
+**Node 1**: Thinksystem ST550
 
 Specifications
 
@@ -25,6 +25,4 @@ Specifications
 | Storage | 4x 2TB 7.2k 12Gbps SAS 2.5" HDD + 1x 1.8TB 10k 12Gbps SAS 2.5" HDD |
 
 ### IoT Devices
-
-
 
