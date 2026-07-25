@@ -10,19 +10,20 @@
 * [Cloud](/cloud/README.md) - NextCloud, Immich, and self-hosted cloud services
 * [Home Assistant](/homeassistant/README.md) - Home Assistant Configurations
 * [Media](/media/README.md) - Deeper Dive into my Jellyfin & *arr stack setup 
+* [Networking](/networking/README.md)
 
 
 ## Hardware
 
 **Node 1**: Thinksystem ST550
 
-Specifications
+Node 1's Specifications
 
-| | |
+|Conponent | Specifications |
 | --- | --- |
 | CPU | 2x Intel Xeon Silver 4110 CPU @ 2.10GHz |
 | RAM | 4x16GB DDR4  |
 | Storage | 4x 2TB 7.2k 12Gbps SAS 2.5" HDD + 1x 1.8TB 10k 12Gbps SAS 2.5" HDD |
 
-### IoT Devices
+
 

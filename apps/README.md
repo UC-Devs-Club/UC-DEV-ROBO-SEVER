@@ -29,6 +29,8 @@ This page in the homelab repository is a way to feature all of the apps that I h
 
 #### Jellyfin
 
+Jellyfin is a fully open-source media server that organises and streams your movie, TV, music, and book libraries to any device on your network or remotely. It transcodes media on the fly if the client can't play the original format, manages metadata like posters and descriptions automatically, and supports multiple user accounts with individual watch histories and parental controls.
+
 #### Jellystat
 
 Jellystat is a Statistics App 

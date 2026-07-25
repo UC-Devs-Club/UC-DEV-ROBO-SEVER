@@ -88,3 +88,12 @@ Once Docker has been properly installed on the LXC and the actual Docker Service
 ```yaml
 
 ```
+
+Now in order to deploy the services within the compose file with their configuration, use the following command:
+
+```bash
+sudo docker-compose up -d #Spins up the containers
+sudo docker ps #Docker Status, think ls but for docker
+```
+
+Now Docker will automatically pull the images from the web and deploy the services
