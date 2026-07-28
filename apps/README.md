@@ -25,10 +25,15 @@ This page in the homelab repository is a way to feature all of the apps that I h
 
 #### File Browser
 
+#### Penpot
+
+Penpot is an open-source design and prototyping tool, similar to Figma, that runs entirely in your browser. It supports vector design, component libraries, interactive prototypes, and team collaboration. Unlike Figma it's self-hosted meaning your design files stay on your own server and there are no subscription costs or seat limits.
+
 ### Media Server Front End 
 
 #### Jellyfin
 
+![](./images/jellyfin.png)
 Jellyfin is a fully open-source media server that organises and streams your movie, TV, music, and book libraries to any device on your network or remotely. It transcodes media on the fly if the client can't play the original format, manages metadata like posters and descriptions automatically, and supports multiple user accounts with individual watch histories and parental controls.
 
 #### Jellystat
@@ -41,15 +46,21 @@ Jellystat is a Statistics App
 
 #### Sonarr - Manages TV Shows & Animes
 
+![](./images/sonarr.png)
+
 Sonarr is a media organization tool for TV Shows. This allows you to scan your library to see everything you have. Manage file names, see the media quality, and even search indexers for media
 
 **Resources:** [Wiki](https://wiki.servarr.com/sonarr) | [Github](https://github.com/Sonarr/Sonarr) | [Website](https://sonarr.tv/)
 
 #### Radarr - Manages Movies of all kind
 
+![](./images/radarr.png)
+
 **Resources:** [Wiki](https://wiki.servarr.com/radarr) | [Github](https://github.com/Radarr/Radarr) | [Website](https://radarr.video/)
 
 #### Bazarr - Manages Subtitles | Particularly helpful for foreign media such as Animes and more
+
+Bazarr is a subtitle manager that integrates with Sonarr and Radarr to automatically download subtitles for your entire media library. It supports dozens of subtitle providers, matches subtitles to the correct language and format, and keeps your library updated as new subtitle translations become available. It can also upgrade existing subtitles if a higher-quality version is found.
 
 **Resources:** [Wiki]() | [Github](https://github.com/morpheus65535/bazarr) | [Website](https://www.bazarr.media/)
 
